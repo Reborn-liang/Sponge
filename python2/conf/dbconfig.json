@@ -1,0 +1,41 @@
+{
+  "mysql":
+  {
+    "password":"dw",
+    "database":"dw",
+    "host":"erpdb.mxzhang.com",
+    "user":"dw",
+    "port": 3306
+  },
+
+  "pgsql":
+  {
+    "password" : "gpadmin",
+    "database" : "test",
+    "host" : "rama.helens.com.cn",
+    "user" : "gpadmin",
+    "port": 5432
+  },
+
+  "log":
+  {
+    "path": "./log/info.log",
+    "level": "INFO"
+  },
+
+  "sftp":
+  {
+    "username": "username",
+    "password": "password",
+    "root_dir": "root_dir"
+  },
+
+  "data":
+  {
+    "flgroot":"./testdata/flg",
+    "datroot":"./testdata/dat"
+  }
+}
+
+
+
